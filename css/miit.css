@@ -1,0 +1,198 @@
+body{
+    padding: 1%;
+    margin: 0%;
+}
+header{
+    background-image: url("https://cdn.pixabay.com/photo/2015/03/19/17/58/light-681199_960_720.jpg");
+    background-size: cover;
+    padding-top: 0%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+}
+header h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 425%;
+    font-weight: lighter;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+header h2{
+    color: rgb(255,255,0);
+    text-align: center;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+header p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 325%;
+    text-align: center;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+header a{
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    font-weight: bold;
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+header a:hover{
+    background-color: rgb(41, 168, 41);
+    border-color: rgb(41, 168, 41);
+}
+marquee{
+    margin-top: 4%;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+section{
+    /*width: 20%;*/
+    border: solid 7px #f0f0f0;
+    /*display: inline-block;*/
+    /*margin-top: 2%;
+    margin-left: 8%;*/
+    /*background-size: cover;*/
+    background-color: #F0F0F0;
+}
+section img{
+    width: 100%;
+}
+
+footer{
+    background-color: #000000;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 15px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 3%;
+}
+body>a{
+    display: block;
+    margin-left: 8%;
+    border: solid 2px black;
+    text-decoration: none;
+    width: 7%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #000000;
+}
+body>a:hover{
+    background-color: #000000;
+    color: #F0F0F0;
+    border-radius: 5px;
+}
+.bluej{
+    display: inline-block;
+    width: 7%;
+    margin-left: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.msword{
+    width: 11%;
+    margin-top: 5%;
+}
+.msmore{
+    display: inline-block;
+    width: 7%;
+    margin-left: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.for_slick_slider{
+    display: flex;
+    border: solid 1px #f0f0f0;
+    margin-top: 1%;
+}
+/*.for_slick_slider .items{
+    width: 20%;
+    height: 50%;
+    margin: 5px;
+    border: solid 1px black;
+}*/
+.for_slick_slider .items section{
+    border: solid 7px #f0f0f0;
+    width: 70%;
+    height: 40%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.for_slick_slider .items section:hover{
+    border-color: rgba(0,0,0,.1);
+    background-color: rgba(0,0,0,.4);
+    color: #000000;
+    border-radius: 7px;
+}
+.slick-prev{
+    border: 0px;
+    width: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.slick-prev:hover{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.slick-next{
+    border: 0px;
+    width: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.slick-next:hover{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+/*MSWORD*/
+.for_new_slider{
+    display: flex;
+    border: solid 1px #f0f0f0;
+    margin-top: 1%;
+}
+.for_new_slider .nitems section{
+    border: solid 7px #F0F0F0;
+    width: 70%;
+    height: 40%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.for_new_slider .nitems section:hover{
+    border-color: rgba(0,0,0,.1);
+    background-color: rgba(0,0,0,.4);
+    color: #000000;
+    border-radius: 7px;
+}
+
